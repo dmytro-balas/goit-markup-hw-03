@@ -104,6 +104,7 @@ body {
 }
 .mark {
     background-color: #FFFFFF;
+    display: block;
 }
 .markhead {
     font-weight: 500;
@@ -185,6 +186,9 @@ ul{
 .ulupp{
     display: flex;
     gap: 40px;
+}
+.container {
+    
 }
 
 
