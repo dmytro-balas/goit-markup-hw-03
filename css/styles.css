@@ -22,17 +22,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-.headstudio:hover,
-.headstudio:focus {
-    color:#404bbf;
-}
-.headstudio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
     padding: 24px 0;
 }
 .headstudio:hover,
@@ -196,7 +185,7 @@ ul{
 .headup {
     border-bottom: 1px solid #e7e9fc;
 }
-.divup {
+.divdiv {
     display: flex;
 }
 .navup {
@@ -251,6 +240,11 @@ ul{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 
