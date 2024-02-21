@@ -77,7 +77,7 @@ body {
     min-width: 169px;
     height: 56px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
 
 }
@@ -92,15 +92,21 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    width: calc((100% - 72px) / 4);
+
 }
 .advantp {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 .ourteam {
     background-color: #F4F4FD;
+    padding: 120px 0;
+    display: block;
+
 
 }
 .ourteamhead {
@@ -110,10 +116,13 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .mark {
     background-color: #FFFFFF;
     display: block;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 .markhead {
     font-weight: 500;
@@ -121,12 +130,15 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .markfooter {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 .ourportfolio {
     font-size: 36px;
@@ -135,6 +147,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .banking {
     font-weight: 500;
@@ -142,6 +155,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .app {
     font-size: 16px;
@@ -151,6 +165,7 @@ body {
 }
 .end {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .logoend {
     font-family: "Raleway", sans-serif;
@@ -160,6 +175,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .collogg {
     color: #f4f4fd;
@@ -168,6 +185,7 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 a {
     text-decoration: none;
@@ -198,9 +216,42 @@ ul{
     margin: 0 auto;
     padding: 0 15px;
 }
+.advantages {
+    padding: 120px 0;
+}
+.visually-hidden{
 
+}
+.uladvant {
+    display: flex;
+    gap: 24px;
+}
+.ulteam {
+    display: flex;
+    gap: 24px;
 
-
+}
+.Guerrero {
+    padding: 32px 0;
+}
+.secfoot {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.ulport {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.bankapp {
+    width: calc((100% - 48px) / 3)
+}
+.divname {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 
 
