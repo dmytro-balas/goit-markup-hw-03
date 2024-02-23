@@ -16,6 +16,11 @@ body {
 .collog  {
     color: #2e2f42;
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .headstudio {
     font-weight: 500;
     font-size: 16px;
@@ -93,9 +98,6 @@ body {
 .ourteam {
     background-color: #F4F4FD;
     padding: 120px 0;
-    display: block;
-
-
 }
 .ourteamhead {
     font-size: 36px;
@@ -221,7 +223,6 @@ ul{
     overflow: hidden;
 }
 
-}
 .uladvant {
     display: flex;
     gap: 24px;
@@ -231,7 +232,7 @@ ul{
     gap: 24px;
 
 }
-.Guerrero {
+.geurr {
     padding: 32px 0;
 }
 .secfoot {
@@ -245,18 +246,14 @@ ul{
     row-gap: 48px;
 }
 .bankapp {
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
 }
 .divname {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+
 
 
 
