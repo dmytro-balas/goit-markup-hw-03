@@ -183,11 +183,10 @@ a {
 ul{
     list-style: none;
 }
-.headup {
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
 .divdiv {
-    display: flex;
 }
 .navup {
     display: flex;
@@ -253,8 +252,9 @@ ul{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
-
+img {
+    display: block;
+}
 
 
 
