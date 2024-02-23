@@ -187,18 +187,25 @@ ul{
     border-bottom: 1px solid #e7e9fc;
 }
 .divdiv {
+    display: flex;
 }
 .navup {
     display: flex;
     align-items: center;
 }
-.ulup {
+.menu {
     display: flex;
     gap: 40px;
 }
-.ulupp{
+.menu li:last-child {
+    margin-right: 0;
+}
+.contact-list{
     display: flex;
     gap: 40px;
+}
+.contact-list li:last-child {
+    margin-right: 0;
 }
 .container {
     width: 1158px;
