@@ -211,6 +211,7 @@ ul{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    max-width: 1158px;
 }
 .advantages {
     padding: 120px 0;
@@ -261,6 +262,18 @@ ul{
 }
 img {
     display: block;
+}
+.list {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    padding: 0;
+}
+.item {
+    width: calc((100% - 72px) / 4);;
+}
+.item h3 {
+    margin-bottom: 8px;
 }
 
 
