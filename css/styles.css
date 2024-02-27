@@ -60,6 +60,7 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin-bottom: 48px;
 }
 .centrebutton {
     background-color: #4d5ae5;
@@ -203,6 +204,7 @@ ul{
 .navup {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .menu {
     display: flex;
@@ -297,7 +299,9 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
 }
-
+h2,h3,p {
+    margin: 0;
+}
 
 
 
